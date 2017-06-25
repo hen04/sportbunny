@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Sportbunny</title>
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/sportbunny.css"/>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="js/sportbunny.js"></script>
+  <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+  <script src="//yastatic.net/share2/share.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrapper"> 
+      <div class="header-content">
+        <div class="header-top">
+          <div class="logo"><img src="img/logo.png" alt=""/></div>
+          <div class="menu">
+            <ul class="js-menu">
+              <li><a href="#courses">Направления</a></li>
+              <li><a href="#trainers">Тренеры</a></li>
+              <li><a href="#opinions">Отзывы</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+              <li><a href="#about">О студии</a></li>
+            </ul>
+          </div>
+          <div class="phone"><a href="tel:+79611415824">+7 961 141 58 24</a></div>
+        </div>
+        <div class="header-bottom">
+          <div class="slogan"><strong>Pole dance — </strong>танец на шесте <br>
+            с элементами акробатики
+          </div>
+          <div class="training-btn">Бесплатная тренировка</div>
+          <div class="soc-icons">
+            <div class="ya-share2" data-services="facebook,vkontakte"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="courses" id="courses">
+      <div class="wrapper">
+        <h2>Направления студии</h2>
+        <div class="courses__content">
+          <div class="courses__col">
+            <div class="courses__item"><img src="img/courses-1.jpg" alt=""/>
+              <h3>Кольцо</h3>
+              <p>Акробатика</p>
+              <p>Танец</p>
+            </div>
+            <div class="courses__item"><img src="img/courses-4.jpg" alt=""/>
+              <h3>Йога</h3>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+          <div class="courses__col">
+            <div class="courses__item"><img src="img/courses-2.jpg" alt=""/>
+              <h3>Пилон</h3>
+              <p>Акробатика</p>
+              <p>Танец</p>
+            </div>
+          </div>
+          <div class="courses__col">
+            <div class="courses__item"><img src="img/courses-3.jpg" alt=""/>
+              <h3>Стретч</h3>
+              <p>Всё тело</p>
+              <p>Спина</p>
+            </div>
+            <div class="courses__item"><img src="img/courses-5.jpg" alt=""/>
+              <h3>Восток</h3>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="trainers" id="trainers">
+      <h2>Тренеры</h2>
+      <div class="wrapper">
+        <div class="trainers__content">
+          <div class="trainers__item"><img src="img/trainers-1.jpg" alt=""/>
+            <p>Екатерина Мельникова</p>
+          </div>
+          <div class="trainers__item"><img src="img/trainers-2.jpg" alt=""/>
+            <p>Виктория Исаева</p>
+          </div>
+          <div class="trainers__item"><img src="img/trainers-3.jpg" alt=""/>
+            <p>Валентина Макарова</p>
+          </div>
+          <div class="trainers__item"><img src="img/trainers-4.jpg" alt=""/>
+            <p>Дарья Шихова</p>
+          </div>
+          <div class="trainers__item"><img src="img/trainers-5.jpg" alt=""/>
+            <p>Мария Караваева</p>
+          </div>
+          <div class="trainers__item"><img src="img/trainers-6.jpg" alt=""/>
+            <p>Алена Савельева</p>
+          </div>
+          <div class="trainers__item"><img src="img/trainers-7.jpg" alt=""/>
+            <p>Наталья Воробьева</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="opinions" id="opinions">
+      <h2>Отзывы</h2>
+      <div class="wrapper">
+        <div class="opinions__slider">
+          <div class="opinions__menu">
+            <ul class="js-opinions">
+              <li data-item="pilon">Пилон</li>
+              <li data-item="ring">Кольцо</li>
+              <li data-item="joga">Йога</li>
+              <li data-item="stretch">Стретч</li>
+              <li data-item="east">Восток</li>
+            </ul>
+          </div>
+          <div class="opinions__slides">
+            <div class="opinions__item opinions__item--pilon">
+              <div class="opinions__info"> 
+                <div class="opinions__info-item opinions__info-item--op-1">
+                  <div class="opinions__img"><img src="img/opinions-1.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Екатерина Сычёва</p>
+                    <p class="date">2014-2017</p>
+                    <div class="content"> 
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-2">
+                  <div class="opinions__img"><img src="img/opinions-2.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Елена Сергеева</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-3">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Светлана Михайлова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-4">
+                  <div class="opinions__img"><img src="img/opinions-4.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Василиса Петрова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-5">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-6">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-7">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+              </div>
+              <div class="opinions__lnk"><img src="img/opinions-2.jpg" data-img="op-2" alt=""/><img src="img/opinions-3.jpg" data-img="op-3" alt=""/><img src="img/opinions-4.jpg" data-img="op-4" alt=""/><img src="img/opinions-5.jpg" data-img="op-5" alt=""/></div>
+              <div class="opinions__more">
+                <div class="opinions__btn js-opinions-btn"></div><img src="img/opinions-3.jpg" data-img="op-6" alt=""/><img src="img/opinions-5.jpg" data-img="op-7" alt=""/>
+              </div>
+            </div>
+            <div class="opinions__item opinions__item--ring">
+              <div class="opinions__info"> 
+                <div class="opinions__info-item opinions__info-item--op-1">
+                  <div class="opinions__img"><img src="img/opinions-1.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Елена Сергеева</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-2">
+                  <div class="opinions__img"><img src="img/opinions-2.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Екатерина Сычёва</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-3">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Светлана Михайлова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-4">
+                  <div class="opinions__img"><img src="img/opinions-4.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Василиса Петрова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-5">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-6">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-7">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+              </div>
+              <div class="opinions__lnk"><img src="img/opinions-2.jpg" data-img="op-2" alt=""/><img src="img/opinions-3.jpg" data-img="op-3" alt=""/><img src="img/opinions-4.jpg" data-img="op-4" alt=""/><img src="img/opinions-5.jpg" data-img="op-5" alt=""/></div>
+              <div class="opinions__more">
+                <div class="opinions__btn js-opinions-btn"></div><img src="img/opinions-3.jpg" data-img="op-6" alt=""/><img src="img/opinions-5.jpg" data-img="op-7" alt=""/>
+              </div>
+            </div>
+            <div class="opinions__item opinions__item--joga">
+              <div class="opinions__info"> 
+                <div class="opinions__info-item opinions__info-item--op-1">
+                  <div class="opinions__img"><img src="img/opinions-1.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Екатерина Сычёва</p>
+                    <p class="date">2014-2017</p>
+                    <div class="content"> 
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-2">
+                  <div class="opinions__img"><img src="img/opinions-2.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Елена Сергеева</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-3">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Светлана Михайлова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-4">
+                  <div class="opinions__img"><img src="img/opinions-4.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Василиса Петрова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-5">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-6">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-7">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+              </div>
+              <div class="opinions__lnk"><img src="img/opinions-2.jpg" data-img="op-2" alt=""/><img src="img/opinions-3.jpg" data-img="op-3" alt=""/><img src="img/opinions-4.jpg" data-img="op-4" alt=""/><img src="img/opinions-5.jpg" data-img="op-5" alt=""/></div>
+              <div class="opinions__more">
+                <div class="opinions__btn js-opinions-btn"></div><img src="img/opinions-3.jpg" data-img="op-6" alt=""/><img src="img/opinions-5.jpg" data-img="op-7" alt=""/>
+              </div>
+            </div>
+            <div class="opinions__item opinions__item--stretch">
+              <div class="opinions__info"> 
+                <div class="opinions__info-item opinions__info-item--op-1">
+                  <div class="opinions__img"><img src="img/opinions-1.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Елена Сергеева</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-2">
+                  <div class="opinions__img"><img src="img/opinions-2.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Екатерина Сычёва</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-3">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Светлана Михайлова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-4">
+                  <div class="opinions__img"><img src="img/opinions-4.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Василиса Петрова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-5">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-6">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-7">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+              </div>
+              <div class="opinions__lnk"><img src="img/opinions-2.jpg" data-img="op-2" alt=""/><img src="img/opinions-3.jpg" data-img="op-3" alt=""/><img src="img/opinions-4.jpg" data-img="op-4" alt=""/><img src="img/opinions-5.jpg" data-img="op-5" alt=""/></div>
+              <div class="opinions__more">
+                <div class="opinions__btn js-opinions-btn"></div><img src="img/opinions-3.jpg" data-img="op-6" alt=""/><img src="img/opinions-5.jpg" data-img="op-7" alt=""/>
+              </div>
+            </div>
+            <div class="opinions__item opinions__item--east">
+              <div class="opinions__info"> 
+                <div class="opinions__info-item opinions__info-item--op-1">
+                  <div class="opinions__img"><img src="img/opinions-1.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Екатерина Сычёва</p>
+                    <p class="date">2014-2017</p>
+                    <div class="content"> 
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                      <p>Это замечательная студия)) Прежде всего, в каком бы состоянии души ты ни пришла на занятие, грустная, уставшая после работы, у тебя обязательно улучшится настроение)) </p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-2">
+                  <div class="opinions__img"><img src="img/opinions-2.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Елена Сергеева</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-3">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Светлана Михайлова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-4">
+                  <div class="opinions__img"><img src="img/opinions-4.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Василиса Петрова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-5">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-6">
+                  <div class="opinions__img"><img src="img/opinions-3.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+                <div class="opinions__info-item opinions__info-item--op-7">
+                  <div class="opinions__img"><img src="img/opinions-5.jpg" alt=""/></div>
+                  <div class="opinions__txt">
+                    <p class="name">Матрена Иванова</p>
+                    <p class="date">2010-2017</p>
+                    <div class="content"> 
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam perspiciatis fuga sint porro sit, quasi, accusantium velit blanditiis illo nulla laborum aliquam consectetur deleniti saepe!</p>
+                    </div>
+                    <p class="more js-more">читать далее</p>
+                  </div>
+                </div>
+              </div>
+              <div class="opinions__lnk"><img src="img/opinions-2.jpg" data-img="op-2" alt=""/><img src="img/opinions-3.jpg" data-img="op-3" alt=""/><img src="img/opinions-4.jpg" data-img="op-4" alt=""/><img src="img/opinions-5.jpg" data-img="op-5" alt=""/></div>
+              <div class="opinions__more">
+                <div class="opinions__btn js-opinions-btn"></div><img src="img/opinions-3.jpg" data-img="op-6" alt=""/><img src="img/opinions-5.jpg" data-img="op-7" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="wrapper">
+        <h2>О студии</h2>
+        <div class="about__content">
+          <div class="about__img">
+            <div class="about__txt"><strong>Сертификаты </strong>
+              <p>У всех тренеров есть сертифкат</p>
+            </div><img src="img/about.jpg" alt=""/>
+          </div>
+          <div class="about__info">
+            <div class="about__item about__item--1">
+              <h4>Пилон на человека</h4>
+              <p>В зале 6 пилонов в  группе 6 человек</p>
+            </div>
+            <div class="about__item about__item--2">
+              <h4>Цены от 1200</h4>
+              <p>цена на абонемент за 4 занятия йогой</p>
+            </div>
+            <div class="about__item about__item--3">
+              <h4>Кольцо только у нас</h4>
+              <p>Единственная студия в городе с кольцом</p>
+            </div>
+            <div class="about__item about__item--4">
+              <h4>Центр города</h4>
+              <p>До нашей студии от  Олимпа 100 м</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contacts" id="contacts">
+      <div class="wrapper">
+        <h2>Контакты</h2>
+        <div class="contacts__txt"><strong>Адрес:</strong>
+          <p>Тверь, ул. Лидии Базановой, д. 18</p><strong>Телефон:</strong>
+          <p>8-961-241-24-24</p>
+        </div><img src="img/map.jpg" alt=""/>
+      </div>
+    </div>
+  </main>
+  <div class="footer">
+    <div class="wrapper">
+      <div class="footer__content">
+        <div class="footer__logo"><img src="img/logo-footer.png" alt=""/></div>
+        <div class="footer__menu">
+          <ul class="js-menu">
+            <li><a href="#courses">Направления студии</a></li>
+            <li><a href="#trainers">Тренеры</a></li>
+            <li><a href="#opinions">Отзывы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#about">О студии</a></li>
+          </ul>
+        </div>
+        <div class="footer__addr">
+          <p>
+            Студия Sportbunny <br>г. Тверь, ул. Лидии Базановой, 18 <br>
+            8 961 152 147 25
+          </p>
+        </div>
+        <div class="footer__copyright">
+          2017 <br>
+          &copy; Sportbunny
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
