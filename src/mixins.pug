@@ -1,0 +1,24 @@
+mixin list(items)
+	each item in items 
+		li
+			a(href=item.href)=item.text
+
+mixin courses(img, name, content, content2)
+	.courses__item
+		img(src=img, alt="")
+		h3= name
+		p= content
+		p= content2
+
+mixin trainers(img, name)
+	.trainers__item
+		img(src=img, alt="")
+		p= name
+
+mixin about(modificator, name, text)
+	.about__item(class=modificator)
+		h4= name
+		p= text
+
+mixin opinions(modificator, name)
+	li(data-item=modificator)= name

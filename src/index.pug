@@ -1,0 +1,118 @@
+include mixins.pug
+<!DOCTYPE html>
+html(lang="ru")
+head
+	meta(charset="UTF-8")
+	title Sportbunny
+	link(rel="stylesheet", href="css/normalize.css")
+	link(rel="stylesheet", href="css/sportbunny.css")
+	link(href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet")
+	script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+	script(src="js/sportbunny.js")
+	script(src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js")
+	script(src="//yastatic.net/share2/share.js")
+body
+	header
+		.wrapper 
+			.header-content
+				.header-top
+					.logo
+						img(src="img/logo.png", alt="")
+					.menu
+						ul.js-menu
+							+list( [ {href: '#courses', text: 'Направления'}, {href: '#trainers', text: 'Тренеры'}, {href: '#opinions', text: 'Отзывы'}, {href: '#contacts', text: 'Контакты'}, {href: '#about', text: 'О студии'} ] )
+					.phone
+						a(href="tel:+79611415824") +7 961 141 58 24
+				.header-bottom
+					.slogan
+						strong Pole dance — 
+						| танец на шесте <br>
+						| с элементами акробатики
+					.training-btn
+						| Бесплатная тренировка
+					.soc-icons
+						.ya-share2(data-services="facebook,vkontakte")
+	main
+		.courses#courses
+			.wrapper
+				h2 Направления студии
+				.courses__content
+					.courses__col
+						+courses('img/courses-1.jpg', 'Кольцо', 'Акробатика', 'Танец')
+						+courses('img/courses-4.jpg', 'Йога', '', '')
+					.courses__col
+						+courses('img/courses-2.jpg', 'Пилон', 'Акробатика', 'Танец')
+					.courses__col
+						+courses('img/courses-3.jpg', 'Стретч', 'Всё тело', 'Спина')
+						+courses('img/courses-5.jpg', 'Восток', '', '')
+		.trainers#trainers
+			h2 Тренеры
+			.wrapper
+				.trainers__content
+					+trainers('img/trainers-1.jpg', 'Екатерина Мельникова')
+					+trainers('img/trainers-2.jpg', 'Виктория Исаева')
+					+trainers('img/trainers-3.jpg', 'Валентина Макарова')
+					+trainers('img/trainers-4.jpg', 'Дарья Шихова')
+					+trainers('img/trainers-5.jpg', 'Мария Караваева')
+					+trainers('img/trainers-6.jpg', 'Алена Савельева')
+					+trainers('img/trainers-7.jpg', 'Наталья Воробьева')
+		.opinions#opinions
+			h2 Отзывы
+			.wrapper
+				.opinions__slider
+					.opinions__menu
+						ul.js-opinions
+							+opinions('pilon', 'Пилон')
+							+opinions('ring', 'Кольцо')
+							+opinions('joga', 'Йога')
+							+opinions('stretch', 'Стретч')
+							+opinions('east', 'Восток')
+					.opinions__slides
+						.opinions__item.opinions__item--pilon
+							include incl-opinions-pilon.pug
+						.opinions__item.opinions__item--ring
+							include incl-opinions-ring.pug
+						.opinions__item.opinions__item--joga
+							include incl-opinions-pilon.pug
+						.opinions__item.opinions__item--stretch
+							include incl-opinions-ring.pug
+						.opinions__item.opinions__item--east
+							include incl-opinions-pilon.pug
+		.about#about
+			.wrapper
+				h2 О студии
+				.about__content
+					.about__img
+						.about__txt
+							strong Сертификаты 
+							p У всех тренеров есть сертифкат
+						img(src="img/about.jpg", alt="")
+					.about__info
+						+about('about__item--1', 'Пилон на человека', 'В зале 6 пилонов в  группе 6 человек')
+						+about('about__item--2', 'Цены от 1200', 'цена на абонемент за 4 занятия йогой')
+						+about('about__item--3', 'Кольцо только у нас', 'Единственная студия в городе с кольцом')
+						+about('about__item--4', 'Центр города', 'До нашей студии от  Олимпа 100 м')
+		.contacts#contacts
+			.wrapper
+				h2 Контакты
+				.contacts__txt
+					strong Адрес:
+					p Тверь, ул. Лидии Базановой, д. 18
+					strong Телефон:
+					p 8-961-241-24-24
+				img(src="img/map.jpg", alt="")
+	.footer
+		.wrapper
+			.footer__content
+				.footer__logo
+					img(src="img/logo-footer.png", alt="")
+				.footer__menu
+					ul.js-menu
+						+list( [ {href: '#courses', text: 'Направления студии'}, {href: '#trainers', text: 'Тренеры'}, {href: '#opinions', text: 'Отзывы'}, {href: '#contacts', text: 'Контакты'}, {href: '#about', text: 'О студии'} ] )
+				.footer__addr
+					p Студия Sportbunny <br>
+						| г. Тверь, ул. Лидии Базановой, 18 <br>
+						| 8 961 152 147 25
+				.footer__copyright
+					| 2017 <br>
+					| &copy; Sportbunny
