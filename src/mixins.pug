@@ -4,14 +4,14 @@ mixin list(items)
 			a(href=item.href)=item.text
 
 mixin courses(img, name, content, content2)
-	.courses__item
+	a(href="#").courses__item
 		img(src=img, alt="")
 		h3= name
 		p= content
 		p= content2
 
 mixin trainers(img, name)
-	.trainers__item
+	a(href="#").trainers__item
 		img(src=img, alt="")
 		p= name
 
