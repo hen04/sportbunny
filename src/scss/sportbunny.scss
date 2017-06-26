@@ -41,7 +41,8 @@ h2 {
 	font-family: 'bebas', sasn-serif;
 	margin-bottom: 67px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	font-weight: 400;
 }
 h3 {
 	font-size: 20px;
@@ -98,6 +99,10 @@ header {
 		a {
 			text-decoration: none;
 			color: #1e1e1e;
+			&:hover {
+				transition: opacity .2s linear;
+				opacity: .8;
+			}
 		}
 	}
 }
@@ -155,6 +160,10 @@ header {
 	border: 1px solid #c1456a;
 	color: #c1456a;
 	border-radius: 35px;
+	&:hover {
+		opacity: .8;
+		transition: opacity .2s linear;
+	}
 }
 
 .soc-icons {
@@ -184,7 +193,7 @@ header {
 	position: relative;
 	padding-top: 50px;
 	box-sizing: border-box;
-	margin-bottom: 135px;
+	margin-bottom: 85px;
 	background: url(../img/courses-bg.png) 0 0 no-repeat;
 	&__content {
 		display: -webkit-flex;
@@ -207,21 +216,34 @@ header {
 		text-decoration: none;
 		img {
 			margin-bottom: 15px;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 		h3 {
 			margin-bottom: 5px;
 			color: #1e1e1e;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 		p {
 			font-size: 14px;
 			margin-bottom: 4px;
 			color: #1e1e1e;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 	}
 }
 
 .trainers {
 	position: relative;
+	padding-top: 50px;
 	overflow: hidden;
 	margin-bottom: 160px;
 	background: url(../img/trainers-bg.png) 0 0 no-repeat;
@@ -231,6 +253,10 @@ header {
 		margin: 0 0 36px 36px;
 		display: block;
 		text-decoration: none;
+		&:hover {
+			opacity: .8;
+			transition: opacity .2s linear;
+		}
 		img {
 			margin-bottom: 7px;
 		}
@@ -292,6 +318,10 @@ header {
 			margin: 0 10px;
 			font-size: 14px;
 			cursor: pointer;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 			&.active {
 				border-bottom: 2px solid #e5437c;
 			}
@@ -353,6 +383,10 @@ header {
 			font-size: 9px;
 			cursor: pointer;
 			text-transform: uppercase;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 	}
 	&__lnk {
@@ -360,6 +394,10 @@ header {
 		img {
 			margin: 0 20px 20px 0;
 			cursor: pointer;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 	}
 	&__more {
@@ -368,6 +406,10 @@ header {
 			margin: 0 0 20px 0;
 			display: none;
 			cursor: pointer;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 	}
 	&__btn {
@@ -553,6 +595,10 @@ header {
 			color: #fff;
 			text-decoration: none;
 			font-size: 14px;
+			&:hover {
+				opacity: .8;
+				transition: opacity .2s linear;
+			}
 		}
 	}
 	&__addr {

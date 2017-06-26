@@ -42,7 +42,8 @@ h2 {
   font-family: 'bebas', sasn-serif;
   margin-bottom: 67px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 h3 {
@@ -107,6 +108,11 @@ header {
   color: #1e1e1e;
 }
 
+.menu ul a:hover {
+  transition: opacity .2s linear;
+  opacity: .8;
+}
+
 .phone {
   font-weight: 700;
 }
@@ -167,6 +173,11 @@ header {
   border-radius: 35px;
 }
 
+.training-btn:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+}
+
 .soc-icons {
   width: 210px;
   text-align: right;
@@ -199,7 +210,7 @@ header {
   position: relative;
   padding-top: 50px;
   box-sizing: border-box;
-  margin-bottom: 135px;
+  margin-bottom: 85px;
   background: url(../img/courses-bg.png) 0 0 no-repeat;
 }
 
@@ -231,9 +242,19 @@ header {
   margin-bottom: 15px;
 }
 
+.courses__item img:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+}
+
 .courses__item h3 {
   margin-bottom: 5px;
   color: #1e1e1e;
+}
+
+.courses__item h3:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .courses__item p {
@@ -242,8 +263,14 @@ header {
   color: #1e1e1e;
 }
 
+.courses__item p:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+}
+
 .trainers {
   position: relative;
+  padding-top: 50px;
   overflow: hidden;
   margin-bottom: 160px;
   background: url(../img/trainers-bg.png) 0 0 no-repeat;
@@ -255,6 +282,11 @@ header {
   margin: 0 0 36px 36px;
   display: block;
   text-decoration: none;
+}
+
+.trainers__item:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .trainers__item img {
@@ -327,6 +359,11 @@ header {
   margin: 0 10px;
   font-size: 14px;
   cursor: pointer;
+}
+
+.opinions__menu li:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .opinions__menu li.active {
@@ -402,6 +439,11 @@ header {
   text-transform: uppercase;
 }
 
+.opinions__txt .more:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
+}
+
 .opinions__lnk {
   width: 230px;
 }
@@ -409,6 +451,11 @@ header {
 .opinions__lnk img {
   margin: 0 20px 20px 0;
   cursor: pointer;
+}
+
+.opinions__lnk img:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .opinions__more {
@@ -419,6 +466,11 @@ header {
   margin: 0 0 20px 0;
   display: none;
   cursor: pointer;
+}
+
+.opinions__more img:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .opinions__btn {
@@ -637,6 +689,11 @@ header {
   color: #fff;
   text-decoration: none;
   font-size: 14px;
+}
+
+.footer__menu a:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .footer__addr {
