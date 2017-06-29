@@ -48,12 +48,13 @@ h3 {
 	font-size: 20px;
 }
 .wrapper {
-	width: 892px;
+	max-width: 892px;
 	margin: 0 auto;
 }
 
 header {
-	width: 1167px;
+	max-width: 1167px;
+	width: 100%;
 	margin: 0 auto;
 	background: #dfdfdf url(../img/main.jpg) 50% 0 no-repeat;
 	padding: 60px 0 145px;
@@ -556,7 +557,8 @@ header {
 }
 .footer {
 	background-color: #333;
-	width: 1167px;
+	max-width: 1167px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 90px 0 100px;
 	color: #fff;
